@@ -1,0 +1,33 @@
+.our-team {
+    background: url(../img/yrfac.jpg) no-repeat center center scroll;
+    height: 800px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.justified {
+    text-align: justify;
+}
+
+header.header {
+    background: url(../img/harkness_compressed3.jpg) no-repeat center center scroll;
+}
+
+.text-backdrop {
+    display: inline-block;
+    background-color: rgba(182, 217, 255, 0.8);
+    padding: 10px 10px 10px 10px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.text-backdrop > * {
+    display: inline-block;
+}
+
+.btn-donate {
+    background-color: #6abc44
+}
